@@ -1,44 +1,45 @@
-[
-  {
-    "name": "Vadapav",
-    "imgsrc": "",
-    "price": "10Rs",
-    "origin":"Mumbai"
-  },
-  {
-    "name": "Samosa",
-    "imgsrc": "",
-    "price": "10Rs",
-    "origin":"Panjab"
-  },
-  {
-    "name": "Pavbhaji",
-    "imgsrc": "../TestJsonData/pavbhaji.jpg",
-    "price": "100Rs",
-    "origin":"Mumbai"
-  },
-  {
-    "name": "Dabeli",
-    "imgsrc": "",
-    "price": "10Rs",
-    "origin":"Gujrat"
-  },
-  {
-    "name": "Idli",
-    "imgsrc": "",
-    "price": "25Rs",
-    "origin":"South India"
-  },
-  {
-    "name": "Dosa",
-    "imgsrc": "",
-    "price": "35Rs",
-    "origin":"South India"
-  },
-  {
-    "name": "Aaloo Chat",
-    "imgsrc": "",
-    "price": "25Rs",
-    "origin":"North India"
-  }
-]
+{
+  "streetfoods": [{
+      "name": "Vadapav",
+      "imgsrc": "",
+      "price": "10Rs",
+      "origin": "Mumbai"
+    },
+    {
+      "name": "Samosa",
+      "imgsrc": "",
+      "price": "10Rs",
+      "origin": "Panjab"
+    },
+    {
+      "name": "Pavbhaji",
+      "imgsrc": "../TestJsonData/pavbhaji.jpg",
+      "price": "100Rs",
+      "origin": "Mumbai"
+    },
+    {
+      "name": "Dabeli",
+      "imgsrc": "",
+      "price": "10Rs",
+      "origin": "Gujrat"
+    },
+    {
+      "name": "Idli",
+      "imgsrc": "",
+      "price": "25Rs",
+      "origin": "South India"
+    },
+    {
+      "name": "Dosa",
+      "imgsrc": "",
+      "price": "35Rs",
+      "origin": "South India"
+    },
+    {
+      "name": "Aaloo Chat",
+      "imgsrc": "",
+      "price": "25Rs",
+      "origin": "North India"
+    }
+  ]
+}
