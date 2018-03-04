@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -30,13 +30,41 @@
                 <img src="{{imgSrc}}" class="img-responsive" alt="Cinque Terre">
             </div>
             <div id="streetfood-info" class="col-sm-9 col-md-6 col-lg-8">
-                <h1> {{Name}}</h1>
-                <h3> Price : {{Price}}</h3>
-                <h3> Origin : {{Origin}}</h3>
+                <h1> {{name}}</h1>
+                <h3> Price : {{price}}</h3>
+                <h3> Origin : {{origin}}</h3>
             </div>
         </div>
         {{/each}}
     </script>
     <script src="main.js"></script>
+    
 </body>
+</html> --> 
+<!-- The #each helper iterates over an array of items. -->
+<!DOCTYPE html>
+<html lang="en">
+            <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                <script src="main.js"></script>
+        </head>
+        <body>
+                <script id="example-template" type="text/x-handlebars-template">
+        
+                    <!-- people is looked up on the global context, the one we pass to the compiled template -->
+                  
+                    {{#each people}}
+                  
+                      <!-- Here the context is each individual person. So we can access its properties directly: -->
+                      <p>{{firstName}} {{lastName}}</p>
+                  
+                    {{/each}}
+                  
+                  </script>
+
+        </body>
+        
 </html>
