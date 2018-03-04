@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="well">
+            
+                <h1>AJAX</h1>
+                <button id="btnGetData" type="button" class="btn btn-primary">Get Street Food Data</button>
+            
+        </div>
+        <div class="well">
+            <div id="streetfood-placeholder"></div>
+        </div>
+    </div>
+    <script id="streetfood-template" type="text/x-handlebars-template">
+        {{#each streetfood}}
+        <div id="streetfood" class="row">
+            <div id="streetfood-img" class="col-sm-3 col-md-6 col-lg-4">
+                <img src="{{imgSrc}}" class="img-responsive" alt="Cinque Terre">
+            </div>
+            <div id="streetfood-info" class="col-sm-9 col-md-6 col-lg-8">
+                <h1> {{Name}}</h1>
+                <h3> Price : {{Price}}</h3>
+                <h3> Origin : {{Origin}}</h3>
+            </div>
+        </div>
+        {{/each}}
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
