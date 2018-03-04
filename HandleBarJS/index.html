@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -24,7 +24,7 @@
         </div>
     </div>
     <script id="streetfood-template" type="text/x-handlebars-template">
-        {{#each streetfood}}
+        {{#each streetfoods}}
         <div id="streetfood" class="row">
             <div id="streetfood-img" class="col-sm-3 col-md-6 col-lg-4">
                 <img src="{{imgSrc}}" class="img-responsive" alt="Cinque Terre">
@@ -40,31 +40,4 @@
     <script src="main.js"></script>
     
 </body>
-</html> --> 
-<!-- The #each helper iterates over an array of items. -->
-<!DOCTYPE html>
-<html lang="en">
-            <head>
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-                <script src="main.js"></script>
-        </head>
-        <body>
-                <script id="example-template" type="text/x-handlebars-template">
-        
-                    <!-- people is looked up on the global context, the one we pass to the compiled template -->
-                  
-                    {{#each people}}
-                  
-                      <!-- Here the context is each individual person. So we can access its properties directly: -->
-                      <p>{{firstName}} {{lastName}}</p>
-                  
-                    {{/each}}
-                  
-                  </script>
-
-        </body>
-        
-</html>
+</html> 
