@@ -1,43 +1,43 @@
 {
   "streetfoods": [{
       "name": "Vadapav",
-      "imgsrc": "",
+      "imgsrc": "https://electricvampire.github.io/UIStuff/TestJsonData/vadapav.jpg",
       "price": "10Rs",
       "origin": "Mumbai"
     },
     {
       "name": "Samosa",
-      "imgsrc": "",
+      "imgsrc": "https://electricvampire.github.io/UIStuff/TestJsonData/samosa.jpg",
       "price": "10Rs",
       "origin": "Panjab"
     },
     {
       "name": "Pavbhaji",
-      "imgsrc": "../TestJsonData/pavbhaji.jpg",
+      "imgsrc": "https://electricvampire.github.io/UIStuff/TestJsonData/pavbhaji.jpg",
       "price": "100Rs",
       "origin": "Mumbai"
     },
     {
       "name": "Dabeli",
-      "imgsrc": "",
+      "imgsrc": "https://electricvampire.github.io/UIStuff/TestJsonData/dabeli.jpg",
       "price": "10Rs",
       "origin": "Gujrat"
     },
     {
       "name": "Idli",
-      "imgsrc": "",
+      "imgsrc": "https://electricvampire.github.io/UIStuff/TestJsonData/idli.jpg",
       "price": "25Rs",
       "origin": "South India"
     },
     {
       "name": "Dosa",
-      "imgsrc": "",
+      "imgsrc": "https://electricvampire.github.io/UIStuff/TestJsonData/dosa.jpg",
       "price": "35Rs",
       "origin": "South India"
     },
     {
       "name": "Aaloo Chat",
-      "imgsrc": "",
+      "imgsrc": "https://electricvampire.github.io/UIStuff/TestJsonData/aaloochat.jpg",
       "price": "25Rs",
       "origin": "North India"
     }
